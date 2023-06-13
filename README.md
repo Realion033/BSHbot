@@ -3,3 +3,9 @@
 
 스크립트는 BSHbot.py입니다.<br>
 토큰은 txt파일을 생성하서야합니다. 깃허브 올릴거아니면 그냥 해도되고..
+
+##English
+A versatile Discord bot inspired by Bae Seung-hyun.<br>
+
+The script is named BSHbot.py.<br>
+You need to create a token.txt file to store the token. If you're not going to upload it to GitHub, you can simply input the token directly.
