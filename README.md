@@ -4,7 +4,7 @@
 스크립트는 BSHbot.py입니다.<br>
 토큰은 txt파일을 생성하서야합니다. 깃허브 올릴거아니면 그냥 해도되고..
 
-## English
+### English
 A versatile Discord bot inspired by Bae Seung-hyun.<br>
 
 The script is named BSHbot.py.<br>
