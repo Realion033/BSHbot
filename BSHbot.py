@@ -15,7 +15,7 @@ def get_token():
     return token
 
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix="`", intents=intents)
+bot = commands.Bot(command_prefix="!", intents=intents)
 
 # 대답 딕셔너리
 sayhi = {
