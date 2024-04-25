@@ -16,6 +16,8 @@ def get_token():
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
+#명령 딕셔너리
+askhi = ["안녕", "ㅎㅇ", "하이", "hello"]
 
 # 대답 딕셔너리
 sayhi = {
@@ -43,7 +45,7 @@ async def on_disconnect():
     await bot.change_presence(activity=discord.Game(name="아크 서바이벌"))  # 오프라인 상태 메시지 설정
 
 # 문답 이벤트
-@bot.command(aliases=["안녕", "ㅎㅇ", "하이", "hello"])
+@bot.command(aliases=askhi)
 async def hi(ctx):
     author_name = ctx.author.name
     if author_name in sayhi:
