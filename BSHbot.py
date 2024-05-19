@@ -38,7 +38,7 @@ bshri = ["나는 로봇이되어버린", "-대충 로키 웃는 gif-", "큭...�
 @bot.event
 async def on_ready():
     print(f"BSH봇이 활성화되었습니다. 봇 아이디: {bot.user.id}")
-    await bot.change_presence(activity=discord.Game(name="*itomi.la"))  # 온라인 상태 메시지 설정
+    await bot.change_presence(activity=discord.Game(name="울트라킬 크랙버전 하는중..."))  # 온라인 상태 메시지 설정
 
 @bot.event
 async def on_disconnect():
