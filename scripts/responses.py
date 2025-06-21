@@ -33,19 +33,7 @@ bsh_data = {
             "질문자1에게 대답3"
         ],
     },
-    "gif_url": "https://media.tenor.com/6IKyOjxLlTQAAAAd/scary-creepy.gif"
-}
-
-# 도움말 텍스트
-HELP_TEXT = "모든 명령어는 `로 시작합니다. 현재 구현된 명령어는 [hello, bsh(배승현이름관련), date, h] 입니다."
-
-### 명령어 설정 ###
-
-# 인사 명령어
-greetings_aliases = ["안녕", "ㅎㅇ", "하이", "hello"]
-
-# 배승현 관련 명령어
-bsh_aliases = ["배승현", "섹승현", "색승현", "쉑승현", "쇅승현", "쒝승현", "BSH", "배", "승현", "배승"]
+    "gif_url": "https://media.tenor.com/6I이", "BSH", "배", "승현", "배승"]
 
 # 날짜 관련 명령어
 date_aliases = ["날짜"]
