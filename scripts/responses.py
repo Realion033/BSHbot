@@ -33,7 +33,7 @@ bsh_data = {
             "질문자1에게 대답3"
         ],
     },
-    "gif_url": "https://media.tenor.com/6IKyOjxLlTQAAAAd/scary-creepy.gif"Add commentMore actions
+    "gif_url": "https://media.tenor.com/6IKyOjxLlTQAAAAd/scary-creepy.gif"
 }
 
 # 도움말 텍스트
