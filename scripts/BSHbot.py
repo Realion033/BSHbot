@@ -5,7 +5,7 @@ from discord.ext import commands
 import datetime
 import random
 import os
-import responses as res  # responses 모듈을 res로 축약하여 가져옵니다.
+import responses as res  # responses 가져오기
 
 # 토큰 파일 경로 설정
 TOKEN_FILE_PATH = os.path.join(os.getcwd(), "token.txt")
@@ -19,7 +19,7 @@ def load_token():
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="`", intents=intents)
 
-### 봇 이벤트 및 명령어 ###
+# 명령어
 
 @bot.event
 async def on_ready():
